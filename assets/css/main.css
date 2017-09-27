@@ -2723,9 +2723,16 @@
 				font-size: 20px;
 			}
         
-               h2.big {
+        
+              h2.big1 {
                 display: block;
                 font-size: 70px;
+                margin-bottom: 5px;
+            }
+        
+               h2.big {
+                display: block;
+                font-size: 60px;
                 margin-bottom: 5px;
             }
 		 
