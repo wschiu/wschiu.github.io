@@ -1769,6 +1769,12 @@
 			margin: 0 0 4em 0;
 		}
 
+        .image.featured1 {
+			display: block;
+			width: 100%;
+			margin: 0 0 4em 0;
+		}
+
          .image.logo {
              display: inline;
              vertical-align: middle;
@@ -2755,7 +2761,15 @@
 
 			.image.featured {
 				margin: 0 0 2em 0;
-                width: 40%;
+                width: 100%;
+                display: block;
+                align-content: center;
+                
+			}
+        
+        .image.featured1 {
+				margin: 0 0 2em 0;
+                width: 100%;
                 display: inline;
                 align-content: center;
                 
