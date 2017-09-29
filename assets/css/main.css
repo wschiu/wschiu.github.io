@@ -1593,7 +1593,13 @@
 		font-weight: 600;
 	}
 
-	h2 {
+	h1 {
+        display: block;
+		font-size: 40px;
+	}
+
+
+    h2 {
         display: block;
 		font-size: 60px;
 	}
@@ -2722,6 +2728,11 @@
 				font-size: 12.5pt;
 				line-height: 1.5em;
 			}
+        
+            h1 {
+            display: block;
+            font-size: 40px;
+            }
 
 			h2 {
                 display: inline-block;
