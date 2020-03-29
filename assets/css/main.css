@@ -1625,7 +1625,7 @@
 	}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 600;
 		color: #483949;
 	}
 
@@ -1755,6 +1755,24 @@
 	footer {
 		margin: 2em 0 0 0;
 	}
+
+/* Order page elements */
+
+#order ol {
+    margin: 2em auto;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#order ul {
+    list-style: disc;
+    padding-left: 2.5em;
+}
+
+#order a {
+    font-weight: 600;
+    color: red;
+}
 
 /* Image */
 
