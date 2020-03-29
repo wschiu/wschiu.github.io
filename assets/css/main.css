@@ -1790,6 +1790,10 @@
     text-align: center;
 }
 
+#order #map .image {
+    width: 100% !important
+}
+
 /* Image */
 
 	.image {
@@ -2739,6 +2743,10 @@
             margin: 1em auto;
             text-align: center;
         }
+        
+        #order #map .image {
+        width: 100% !important
+        }
 
 		/* Carousel */
 
@@ -2877,6 +2885,10 @@
         
          /* Order */
         
+        #order {
+            text-align: center;
+        }
+        
         #order .image {
             width: 30%;
             max-width: 80px;
@@ -2884,13 +2896,16 @@
             text-align: center;
         }
         
-        #order {
-            text-align: center;
+        #order #map .image {
+            width: 100% !important;
+            max-width: none;
         }
         
         #order p {
             text-align: center;
         }
+        
+        
         
 
 		/* List */
